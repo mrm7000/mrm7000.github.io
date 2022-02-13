@@ -9,7 +9,7 @@ Folder:Toggle("Example Toggle", function(bool)
    shared.Toggle = bool
    print(shared.Toggle) 
 end)
-Folder:Slider("Example Slider",16,50,function(value)
+Folder:Slider("Example Slider",16,50,16,function(value)
     print(value)
 end)
 Folder:Dropdown("Example Dropdown",{"A","B","C"},function(option)
