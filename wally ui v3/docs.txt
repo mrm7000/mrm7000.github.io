@@ -1,0 +1,15 @@
+====================
+  Wally ui v3 docs
+====================
+
+Library:
+	CreateWindow <name>:
+		CreateFolder <name>:
+			Label <text> <BgColor> <TextColor>
+			Button <name> <callback>
+			Toggle <name> <callback (bool)>
+			Slider <name> <MinValue int> <MaxValue int> <callback (value)>
+			Dropdown <name> <options table> <callback (option)>
+			Box <name> < "number" for olny numbers "string" for all nubers and text>
+			DestroyGUI
+			GuiSettings
